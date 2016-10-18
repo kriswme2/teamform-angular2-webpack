@@ -1,7 +1,7 @@
 # teamform-angular2-webpack
-Teamform: angular2 with web pack and karma unit testing
+Teamform: angular2 with web pack, karma unit testing and material design
 
-This is the teamform-seed rewritten with Angular 2, codes are managed by Webpack, gulp and are configured to work with SASS and TypeScript.
+This is the teamform-seed rewritten with Angular 2, codes are managed by Webpack, gulp and are configured to work with SASS and TypeScript. 
 
 All assets(CSS/JS/images) and HTML are minified.
 
