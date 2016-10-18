@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+.teamform-main {
+	& * {font-family: 'Exo 2', sans-serif}
+	.home-first-grid {
+		height: 500px;
+		background: url('./img/material_wallpaper_teal.png') center / cover;
+		color: white;
+	}
+	.home-second-grid-wrap	{
+		background: #F5F5F5;
+		color: #263238;
+		.roles-card.mdl-card {
+			width: 90%;
+			height: 310px;
+			@media only screen and (max-width: 839px) {
+				margin: 0 auto;
+				width: 95%;
+				height: auto;
+			}
+		}
+		.roles-card > .mdl-card__title {
+		  color: #fff;
+		  background: #66BB6A;
+		}
+		.mdl-card__supporting-text {
+			height: 200px;
+			@media only screen and (max-width: 839px) {
+				height: auto;
+			}
+		}
+	}
+}
